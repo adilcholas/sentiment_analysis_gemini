@@ -6,7 +6,7 @@ class SentimentProvider with ChangeNotifier {
 
   final model = GenerativeModel(
     model: 'gemini-2.5-flash',
-    apiKey: 'AIzaSyCPEHhJfgQD7LcRTktB9G9FNyZyzi7_KcA',
+    apiKey: 'API_KEY',
   );
 
   bool isLoading = false;
@@ -47,3 +47,4 @@ class SentimentProvider with ChangeNotifier {
     }
   }
 }
+
